@@ -1,0 +1,100 @@
+/* Main.css */
+.container {
+  display: flex;
+  justify-content: center;
+  height: 95vh;
+  background-color: #f4f4f4;
+}
+
+.content {
+  width: 80%;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.message {
+  font-size: 18px;
+  text-align: center;
+  color: #777;
+}
+
+.contact-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.create-button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.no-contacts-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.no-contacts-card p {
+  font-size: 18px;
+  text-align: center;
+  color: #555;
+  margin: 0;
+  padding: 10px;
+}
